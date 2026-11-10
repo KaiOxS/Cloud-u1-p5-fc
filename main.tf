@@ -39,5 +39,5 @@ resource "aws_instance" "mi_instancia_2" {
   tags = {
     Name = "MiInstanciaTerraform2" # Etiqueta para identificar a la instancia
   }
-  vpc_security_group_ids = [aws_security_group.mi-sg.id] # Asignamos el secturity group a la instancia y listo xD
+  vpc_security_group_ids = [aws_security_group.mi-sg.id] # Asignamos el secturity group a la instancia
 }
