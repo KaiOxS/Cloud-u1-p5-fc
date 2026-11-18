@@ -5,6 +5,7 @@
 *.tfstate.backup
 crash.log
 crash.*.log
+*.lock.hcl
 
 # Archivos sensibles
 *.tfvars
