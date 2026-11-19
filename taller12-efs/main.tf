@@ -51,7 +51,7 @@ resource "aws_security_group" "mi-sg-efs" {
   }
 }
 
-# Declaración de los recursos de aws
+# Declaración de los recursos de aws efs
 resource "aws_instance" "mi_instancia_efs" {
   ami             = var.ami_id         # ID de la imagen de amazon linux
   instance_type   = var.tipo_instancia # Tipo de instancia 
