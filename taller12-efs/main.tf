@@ -30,7 +30,7 @@ resource "aws_security_group" "mi-sg-efs-instancias" {
   }
 }
 
-# Creamos el security group 2
+# Creamos el security group 2 
 resource "aws_security_group" "mi-sg-efs" {
   name        = "mi-security-group-terraform-efs"
   description = "Security Group para mi instancia de terraform"
